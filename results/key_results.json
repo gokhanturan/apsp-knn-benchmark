@@ -1,0 +1,37 @@
+{
+  "original_fastest_counts": {
+    "dijkstra": 9,
+    "floyd_warshall": 3
+  },
+  "memory_winner_counts": {
+    "floyd_warshall": 9,
+    "dijkstra": 2,
+    "johnson": 1
+  },
+  "median_dijkstra_speedup_vs_floyd": 2.290411427029838,
+  "max_dijkstra_speedup_vs_floyd": 8.66378821729513,
+  "clustered_friedman_chi2": 3.5,
+  "clustered_friedman_p": 0.1737739434504451,
+  "scaling_order_reversal": [
+    {
+      "k": 5,
+      "last_tested_n_with_floyd_not_slower": 150,
+      "first_tested_n_with_dijkstra_faster": 200
+    },
+    {
+      "k": 10,
+      "last_tested_n_with_floyd_not_slower": 150,
+      "first_tested_n_with_dijkstra_faster": 200
+    },
+    {
+      "k": 20,
+      "last_tested_n_with_floyd_not_slower": 200,
+      "first_tested_n_with_dijkstra_faster": 250
+    }
+  ],
+  "all_float64_checks_passed": true,
+  "cross_method_checks": 24,
+  "networkx_checks_passed": 3,
+  "claim_checks_passed": 12,
+  "claim_checks_total": 12
+}

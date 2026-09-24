@@ -1,0 +1,3 @@
+dataset,k,comparison,finite_pattern_match,max_abs_error,max_rel_error,rtol,atol,passed
+breast_cancer,20,floyd_warshall_vs_dijkstra,True,7.105427357601002e-15,4.368075906628625e-16,1e-10,1e-12,True
+breast_cancer,20,johnson_vs_dijkstra,True,0.0,0.0,1e-10,1e-12,True

@@ -1,0 +1,13 @@
+claim,observed,manuscript_expected,pass
+Original fastest counts,"{'dijkstra': 9, 'floyd_warshall': 3}","{'dijkstra': 9, 'floyd_warshall': 3}",True
+Wine fastest algorithm,"['floyd_warshall', 'floyd_warshall', 'floyd_warshall']","['floyd_warshall', 'floyd_warshall', 'floyd_warshall']",True
+Dijkstra fastest on Diabetes/Breast Cancer/Digits,"['dijkstra', 'dijkstra', 'dijkstra', 'dijkstra', 'dijkstra', 'dijkstra', 'dijkstra', 'dijkstra', 'dijkstra']","['dijkstra', 'dijkstra', 'dijkstra', 'dijkstra', 'dijkstra', 'dijkstra', 'dijkstra', 'dijkstra', 'dijkstra']",True
+Median Dijkstra speedup rounded,2.29,2.29,True
+Maximum Dijkstra speedup rounded,8.66,8.66,True
+Memory winner counts,"{'floyd_warshall': 9, 'dijkstra': 2, 'johnson': 1}","{'floyd_warshall': 9, 'dijkstra': 2, 'johnson': 1}",True
+Cross-method float64 checks,24,24,True
+All float64 checks pass,True,True,True
+NetworkX checks,3,3,True
+Friedman chi-square rounded,3.5,3.5,True
+Friedman p rounded,0.174,0.174,True
+Controlled scaling ordering reversal,"[{'k': 5, 'last_tested_n_with_floyd_not_slower': 150, 'first_tested_n_with_dijkstra_faster': 200}, {'k': 10, 'last_tested_n_with_floyd_not_slower': 150, 'first_tested_n_with_dijkstra_faster': 200}, {'k': 20, 'last_tested_n_with_floyd_not_slower': 200, 'first_tested_n_with_dijkstra_faster': 250}]","[{'k': 5, 'last_tested_n_with_floyd_not_slower': 150, 'first_tested_n_with_dijkstra_faster': 200}, {'k': 10, 'last_tested_n_with_floyd_not_slower': 150, 'first_tested_n_with_dijkstra_faster': 200}, {'k': 20, 'last_tested_n_with_floyd_not_slower': 200, 'first_tested_n_with_dijkstra_faster': 250}]",True

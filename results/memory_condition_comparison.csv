@@ -1,0 +1,13 @@
+dataset,k,dijkstra,floyd_warshall,johnson,lowest_memory_algorithm
+breast_cancer,5,5.21484375,4.76953125,5.21875,floyd_warshall
+breast_cancer,10,5.2890625,4.8046875,5.234375,floyd_warshall
+breast_cancer,20,5.44921875,5.0390625,5.30859375,floyd_warshall
+diabetes,5,4.4296875,3.734375,4.32421875,floyd_warshall
+diabetes,10,4.27734375,3.77734375,4.34375,floyd_warshall
+diabetes,20,4.296875,3.90625,4.22265625,floyd_warshall
+digits,5,27.5859375,29.6640625,27.58984375,dijkstra
+digits,10,27.9765625,29.90234375,27.921875,johnson
+digits,20,27.97265625,29.96875,28.5390625,dijkstra
+wine,5,2.93359375,2.2578125,2.90234375,floyd_warshall
+wine,10,3.05078125,2.3984375,2.72265625,floyd_warshall
+wine,20,2.8671875,2.24609375,3.07421875,floyd_warshall

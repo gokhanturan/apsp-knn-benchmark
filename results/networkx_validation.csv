@@ -1,0 +1,4 @@
+dataset,k,max_abs_error,passed
+wine,5,0.0,True
+wine,10,0.0,True
+wine,20,0.0,True
