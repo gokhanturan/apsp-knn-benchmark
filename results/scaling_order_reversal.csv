@@ -1,0 +1,4 @@
+k,last_tested_n_with_floyd_not_slower,first_tested_n_with_dijkstra_faster
+5,150,200
+10,150,200
+20,200,250
